@@ -1,0 +1,71 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('../index.html/swirl_pattern.png');
+   
+  }
+
+  .nav {
+    float: left;
+}
+
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+
+ 
+
+.container {
+    background-color: darkred;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+    float: left;
+  }
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    background-image: url('../index.html/cat2.jpeg');
+    background-size: 100%;
+    float: left;
+}
+
+
+
+.gallery-links{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.gallery-img{
+    flex-basis: 30%;
+    margin: 20px;
+   
+   
+}
+
+
+
+  
+
+footer {
+    background-color: #000;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    border-top: 8px solid #e28710;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
