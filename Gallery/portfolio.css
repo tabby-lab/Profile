@@ -8,23 +8,30 @@ body{
 
 .background-image {
     background-image: url('../index.html/swirl_pattern.png');
-   
+  
   }
 
-  .nav {
-    float: left;
-}
+
 
 
 .navbar-brand{
-    font-size: xx-large;
+    font-size: xx-large; 
+    background-color: darkred;
+    margin-left: 135px;
+    padding: 2%;
+  
+}
+
+.bg-light{
+    background-color: rgb(65, 62, 62) !important;
 }
 
 
- 
 
 .container {
     background-color: darkred;
+    height:960px;
+    width: 960px;
 }
 
 .flex-container {
@@ -35,6 +42,7 @@ body{
 #bio-image {
     margin-right: 20px;
     width: 200px;
+    height: 200px;
     background-image: url('../index.html/cat2.jpeg');
     background-size: 100%;
     float: left;
@@ -62,10 +70,18 @@ body{
 footer {
     background-color: #000;
     position: fixed;
-    height: 100px;
+    height: 50px;
     bottom: 0;
     border-top: 8px solid #e28710;
     left: 0;
     width: 100%;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 580px) {
+    .container {
+      width: 100%;
+    }
+  }
+
