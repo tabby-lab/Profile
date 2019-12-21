@@ -4,8 +4,11 @@ body{
     line-height: 150%;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
+}
     
-}    
+  
 
 
 .background-image {
@@ -13,7 +16,7 @@ body{
    
   }
   
-.html{
+html{
     height: 100%;
 }
 
@@ -30,7 +33,7 @@ body{
     font-size: xx-large; 
     background-color: darkred;
     margin-left: 150px;
-    padding: 2%;
+    padding: 3%;
     
     
 }
@@ -43,11 +46,16 @@ body{
 
 .container{
     background-color: darkred;
-    height: 960px;
+   height: 960px;
     width: 960px;
     margin: auto;
   
 
+}
+
+.row{
+    max-height: 100%;
+    width:100%;
 }
 
 .bio-img{

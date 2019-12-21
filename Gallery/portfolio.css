@@ -4,6 +4,13 @@ body{
     line-height: 150%;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+   
 }
 
 .background-image {
@@ -17,8 +24,8 @@ body{
 .navbar-brand{
     font-size: xx-large; 
     background-color: darkred;
-    margin-left: 135px;
-    padding: 2%;
+    margin-left: 150px;
+    padding: 3%;
   
 }
 
@@ -30,8 +37,14 @@ body{
 
 .container {
     background-color: darkred;
-    height:960px;
+    height: 960px;
     width: 960px;
+    margin: auto;
+}
+
+.row{
+    max-height: 100%;
+    width:100%;
 }
 
 .flex-container {
@@ -70,7 +83,7 @@ body{
 footer {
     background-color: #000;
     position: fixed;
-    height: 50px;
+    height: 100px;
     bottom: 0;
     border-top: 8px solid #e28710;
     left: 0;
